@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.2",
+	"EngineAssociation": "{454B7C1F-4AE1-44B7-C775-099F685FF8C1}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ImpulseGunProto",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
